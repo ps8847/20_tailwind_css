@@ -1,0 +1,7 @@
+why use tailwind css ? 
+
+* no reninventing of class names required 
+* you css doesn't grow with your html and designs 
+* when you make a change , no risk of breaking existing templates 
+* will this make sites slow ? will it increase bundle size 
+* what about responsiveness ? 

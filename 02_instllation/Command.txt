@@ -1,0 +1,37 @@
+npm install -D tailwindcss postcss autoprefixer
+
+npm install vite 
+
+
+in package.json 
+
+>> {
+  
+    "scripts": {
+"start": "vite"
+    },
+  
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "vite": "^4.2.1"
+  }
+}
+
+
+
+>> npx tailwindcss init
+
+now open taliwind.config.js and modify itsbelow part only ::
+
+  content: ["*"],
+
+
+>> now make  a index.html page ,,, 
+
+>> after all of these , wriet the comman d : 
+
+npm run start 
